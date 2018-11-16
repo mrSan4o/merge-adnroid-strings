@@ -100,9 +100,8 @@ fun main(args: Array<String>) {
 fun input(text: String): String {
     val input = Scanner(System.`in`)
     print("$text: ")
-    val nextLine = input.nextLine()
-    println()
-    return nextLine
+
+    return input.nextLine()
 }
 
 fun checkFile(f: File) {
